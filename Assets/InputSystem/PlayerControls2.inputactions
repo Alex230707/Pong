@@ -1,0 +1,56 @@
+{
+    "name": "PlayerControls2",
+    "maps": [
+        {
+            "name": "BasicInput2",
+            "id": "92e4fffd-3316-4fbd-944c-8ccd9eda8d62",
+            "actions": [
+                {
+                    "name": "Moving2",
+                    "type": "Value",
+                    "id": "d20327bf-f6b0-443a-ba14-194d16a71aff",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "72985563-ace1-4916-a00b-6e404195f32a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moving2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "e3c56caf-280e-48db-af00-f98c69b3b147",
+                    "path": "<Keyboard>/numpad9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moving2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "0225c787-6356-4858-9694-b61865448fef",
+                    "path": "<Keyboard>/numpad3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moving2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
